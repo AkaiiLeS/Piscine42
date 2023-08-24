@@ -1,0 +1,30 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_function.h                                      :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: sguillot <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2023/08/19 18:37:03 by sguillot          #+#    #+#             */
+/*   Updated: 2023/08/19 19:58:22 by sguillot         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+#ifndef FT_FUNCTION_H
+# define FT_FUNCTION_H
+
+#include <unistd.h>
+#include <stdlib.h>
+#include <stdio.h>
+
+void	ft_rev_int_tab(int *tab, int size);
+int	ft_atoi(char *str);
+int	ft_strlen(char *str);
+void	ft_putchar(char c);
+void	ft_logic(int nb);
+void    ft_putstr(char *str);
+int ft_intlen(int nb);
+
+// char	**ft_split(char *str, char *charset);
+
+#endif
